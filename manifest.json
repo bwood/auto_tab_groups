@@ -1,0 +1,19 @@
+{
+	"name": "Auto Tab Groups",
+	"version": "0.1.0",
+	"manifest_version": 2,
+
+	"description": "URLs matching your rules are automatically opened in a window containing the group.",
+	"icons": {
+		"16": "if_tab_new_2501.png",
+		"48": "if_tab_new_2501_48.png"
+	},
+
+	"browser_action": {
+		"default_title": "Auto Tab Groups",
+		"default_icon": "if_tab_new_2501_48.png",
+		"default_popup": "popup.html"
+	},
+
+	"permissions": ["storage", "contextMenus", "tabs", "notifications"]
+}

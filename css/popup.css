@@ -1,0 +1,98 @@
+body {
+	min-width:380px;
+	margin:12px;
+	-webkit-user-select:none;
+	user-select:none;
+}
+body, button {
+	font-family:Tahoma, Verdana, Sans-Serif;
+	font-size:.7rem;
+}
+table {
+	width:100%;
+	border-radius: 3px;
+	margin-top: .5em;
+}
+h1 {
+	font-size:large;
+}
+thead td {
+	background-color:silver;
+	text-align:left;
+	font-weight:bold;
+	vertical-align: middle;
+	padding: .3rem;
+}
+td {
+	vertical-align:middle;
+	border-bottom:1px solid silver;
+}
+td:nth-child(2) {
+	text-align:right;
+	width:5rem;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	margin:0;
+}
+li {
+	border-bottom:1px dotted #333;
+}
+#newTabsetName {width:200px;}
+button {
+	font-weight:bold;
+}
+.rhsImgBtn {
+    float:right;
+    width:16px;
+    height:12px;
+}
+.delete {
+	background: url(images/delete.gif) no-repeat;
+}
+.export {
+	background: url(images/export.gif) no-repeat;
+}
+.addTab {
+	background: url(images/plus.gif) no-repeat;
+}
+.removeTab {
+	background: url(images/delete.gif) no-repeat;
+}
+.moveTabUp {
+	background: url(images/up.gif) no-repeat;
+}
+.moveTabDn {
+	background: url(images/down.gif) no-repeat;
+}
+.import {
+	background: url(images/import.gif) no-repeat;
+}
+.renTab {
+	background: url(images/pen.gif) no-repeat;
+}
+.tabsetTitle {
+	max-width:195px;
+	display:inline-block;
+	cursor:pointer;
+}
+.tabsetExpando {
+	width:16px;
+	height:12px;
+	display:inline-block;
+	background: url(images/expandable.gif) no-repeat;
+}
+.expanded {
+	background: url(images/expanded.gif) no-repeat;
+}
+#exportedTabsetText, #importedTabsetText {
+	width:100%;
+	height:4rem;
+	-webkit-user-select:all;
+	user-select:all;
+}

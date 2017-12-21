@@ -1,16 +1,16 @@
 <!doctype HTML>
-<html ng-app="Tabgroups" ng-csp>
+<html ng-app="Autotabgroups">
 <head>
-	<title>Auto Tab Groups</title>
+	<title>{{name}}</title>
 	<link rel="stylesheet" href="css/popup.css">
 
-	<!--<script src="js/lib/angular.min.js"></script>-->
-	<!--<script src="js/app/app.js"></script>-->
-	<!--<script src="js/app/popup.js"></script>-->
+	<script src="js/lib/angular.min.js"></script>
+	<script src="js/app/app.js"></script>
+	<script src="js/app/popup.js"></script>
 </head>
 <body>
-<div ng-controller="AutoTabGroupsController">
-	<h1>Auto Tab Groups</h1>
+<div ng-controller="AutotabgroupsController">
+	<h1>{{name}}</h1>
 
 	<form name="newTabGroupForm">
 		<label for="newTabGroupName">Create a new tab group</label>

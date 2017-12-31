@@ -15,5 +15,12 @@
 		"default_popup": "popup.html"
 	},
 
-	"permissions": ["storage", "contextMenus", "tabs", "notifications"]
+
+	"background": {
+		"scripts" : ["eventPage.js"],
+		"persistent" : false
+	},
+
+
+	"permissions": ["webNavigation"]
 }

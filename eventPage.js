@@ -1,4 +1,4 @@
-chrome.webNavigation.onCommitted.addListener(function (data) {
+chrome.webNavigation.onCompleted.addListener(function (data) {
         let windowData = {
             tabId: data.tabId
         };
